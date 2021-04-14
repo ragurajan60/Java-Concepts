@@ -12,6 +12,8 @@ public class MainClass {
 		//rr.Refuel();
 		c.Start();
 		c.Refuel();
+		Car.push();
+		Car.pull();
 		Car.a = 20;
 		rr.Interface();
 		System.out.println(Car.a + rr.b);
@@ -19,5 +21,8 @@ public class MainClass {
 		ic.TestInterface();
 		ic.Interface();
 		rr.TestInterface();
+		InterfaceConcepts icTesla = new Tesla();
+		icTesla.Interface();
+		icTesla.TestInterface();
 		}
 }
