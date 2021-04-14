@@ -24,6 +24,11 @@ public class Car implements InterfaceConcepts{
 	{
 		System.out.println("Car -- Pull");
 	}
+	
+	public static void push()
+	{
+		System.out.println("Car -- Push");
+	}
 
 	@Override
 	public void Interface() {
