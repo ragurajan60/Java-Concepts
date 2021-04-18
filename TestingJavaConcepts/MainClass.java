@@ -9,7 +9,7 @@ public class MainClass {
 		rr.Start();
 		rr.Stop();
 		rr1.Start();
-		//rr.Refuel();
+		rr.Refuel();
 		c.Start();
 		c.Refuel();
 		Car.push();
